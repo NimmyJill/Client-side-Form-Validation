@@ -7,12 +7,12 @@ const username=document.getElementById('username');
 const pswd=document.getElementById('pswd');
 const cpswd=document.getElementById('cpswd');
 
-form.addEventListener('submit', (e)=>{
-    e.preventDefault();
+// form.addEventListener('submit', (e)=>{
+//     e.preventDefault();
 
-    checkInputs();
+//     checkInputs();
     
-});
+// });
 
 function checkInputs(){
     //get th evalues from the inputs
